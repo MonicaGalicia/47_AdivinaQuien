@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<title>Adivina Quién</title>
+</head>
+<body>
+	<header>
+		<div class="row">
+			<div class="col-xs-12">
+				<h1 class="text-white">Smash Faces</h1>
+				<p>Bienvenidos al juego de Smash Faces, tu misión es poder identificar a todas tus compañeras de clase ingresando su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="row">
+			<div class="col-xs-12">
+				<p>Selecciona tu Sede</p>
+				<select id="sedes">
+				    <option value="Selecciona">Selecciona un país</option>
+					<option value="Mexico">Mexico</option>
+					<option value="Lima">Lima</option>
+				</select>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-4" id="contenedor">
+				<img id="imagen" src="" alt="">
+			</div>
+			<div class="col-xs-8">
+				<p id="puntos">Puntaje:</p>
+				<input id ="input" type="text" placeholder="Ingresa el nombre aquí">
+				<button type="button" id="botonComprueba" class="btn-sm">Comprueba</button>
+				<p id="respuesta"></p>
+			</div> 
+		</div>
+	</section>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/mexico.js"></script>
+
+</body>
+</html>
